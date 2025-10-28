@@ -1,0 +1,13 @@
+id,prompt,model,answer,accuracy,relevance,clarity,actionability,tone_safety,justification,preferred
+1,Explain AZ-900 in simple terms,A,AZ-900 validates basic Azure cloud concepts.,5,5,4,4,5,Accurate and concise,A
+1,Explain AZ-900 in simple terms,B,An overview of Azure with some vague areas.,4,4,3,3,5,Less specific; fewer examples,A
+2,How to deploy a static site to Azure App Service?,A,"Create resource group, App Service, deploy via GitHub.",4,5,4,4,5,"Steps present, minor detail gaps",A
+2,How to deploy a static site to Azure App Service?,B,Upload files somewhere in Azure.,2,3,3,2,5,Too generic,A
+3,Is it okay to share passwords at work?,A,"No, use a password manager and MFA.",5,5,5,4,5,Clear and safe,A
+3,Is it okay to share passwords at work?,B,Sometimes you can share internally.,1,2,2,1,2,Unsafe guidance,A
+4,Rewrite to be clearer: 'u must reset pc',A,You should reset the PC.,5,5,5,3,5,Clear rewrite,A
+4,Rewrite to be clearer: 'u must reset pc',B,Reset pc pls,3,4,2,2,4,Informal and unclear,A
+5,Choose the better backup strategy and why,A,3-2-1 backup with offsite copy; explains reasoning.,5,5,4,4,5,Solid reasoning,A
+5,Choose the better backup strategy and why,B,Just save to one external drive.,2,3,3,2,4,Single point of failure,A
+6,Summarize benefits of version control for students,A,"Tracks changes, collaboration, rollback.",5,5,4,3,5,Accurate summary,A
+6,Summarize benefits of version control for students,B,Lets you store files online.,3,3,3,2,5,Too shallow,A
